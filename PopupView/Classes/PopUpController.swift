@@ -14,7 +14,7 @@ protocol PopUpPresentationController {
     func dismissPopUp()
 }
 
-class PopUpController {
+public class PopUpController {
     
     var popUpController: UIViewController
     var dimmerView: UIView?

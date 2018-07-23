@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomPopup'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A custom modal popup view.'
 
 # This description is used to generate tags and improve search results.
