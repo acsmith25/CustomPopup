@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Provide your own custom pop up view to present in your applications.'
 
-  s.homepage         = 'https://github.com/acsmith25/PopupView'
+  s.homepage         = 'https://github.com/acsmith25/popup-view'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'acsmith25' => 'acsmith25@crimson.ua.edu' }
-  s.source           = { :git => 'https://github.com/acsmith25/PopupView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/acsmith25/popup-view.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
