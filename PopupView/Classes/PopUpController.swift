@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol PopUpPresentationController {
+public protocol PopUpPresentationController {
     var gesture: UIGestureRecognizer? { get set }
     var popUp: PopUpController? { get set }
     func dismissPopUp()
@@ -20,11 +20,11 @@ public class PopUpController {
     var dimmerView: UIView?
     var presentationController: PopUpPresentationController?
     
-    init(popUpView: UIViewController) {
+    public init(popUpView: UIViewController) {
         self.popUpController = popUpView
     }
     
-    func presentPopUp(on controller: PopUpPresentationController) {
+    public func presentPopUp(on controller: PopUpPresentationController) {
         self.presentationController = controller
         guard let controller = controller as? UIViewController else { return }
         
@@ -55,7 +55,7 @@ public class PopUpController {
         }, completion: nil)
     }
     
-    func dismissSubviews() {
+    public func dismissSubviews() {
         //dismiss subviews here
         guard let controller = presentationController as? UIViewController, let dimmerView = dimmerView else { return }
         UIView.animate(withDuration: 0.2, animations: {
