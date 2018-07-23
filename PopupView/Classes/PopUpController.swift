@@ -16,7 +16,7 @@ public protocol PopUpPresentationController {
 
 public class PopUpController {
     
-    var popUpController: UIViewController
+    public var popUpController: UIViewController
     var dimmerView: UIView?
     var presentationController: PopUpPresentationController?
     
