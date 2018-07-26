@@ -7,7 +7,7 @@
 
 ## Introduction
 
-CustomPopup allows you to modally present any view controller on another in UIAlert style.  
+CustomPopup allows you to modally present any view controller that dynamically sizes to its content on another in UIAlert style.  
 
 ## Example
 
@@ -15,8 +15,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ![Screenshot](Images/screenshot1.png)
 ![Screenshot](Images/screenshot2.png)
-
-/Users/asmith/Documents/Projects/Learning/PopupView/screenshot1.png
 
 ## Installation
 
