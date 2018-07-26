@@ -13,7 +13,10 @@ CustomPopup allows you to modally present any view controller on another in UIAl
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![Screenshot](Images/screenshot1.png)
+![Screenshot](Images/screenshot2.png)
+
+/Users/asmith/Documents/Projects/Learning/PopupView/screenshot1.png
 
 ## Installation
 
